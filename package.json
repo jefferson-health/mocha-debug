@@ -22,8 +22,7 @@
         "mocha": "*",
         "why-is-node-running": "*"
     },
-    "devDependencies": {
-    },
+    "devDependencies": {},
     "bin": {
         "mocha-debug": "./bin/mocha-debug.sh"
     },
