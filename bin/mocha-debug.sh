@@ -1,2 +1,4 @@
 #! /bin/sh
-node --expose-internals ${BASH_SOURCE%/*}/../mocha-debug.js
+SCRIPT=$(readlink -f "$0")
+SCRIPTPATH=$(dirname "$SCRIPT")
+node --expose-internals ${SCRIPTPATH}/../mocha-debug.js
